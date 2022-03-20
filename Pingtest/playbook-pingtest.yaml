@@ -1,0 +1,6 @@
+-
+  name: Tset the target connectivity
+  hosts: all
+  tasks:
+    - name: pingtest
+      ping:
